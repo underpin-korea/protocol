@@ -453,6 +453,7 @@ type Room struct {
 	Metadata        string   `protobuf:"bytes,8,opt,name=metadata,proto3" json:"metadata,omitempty"`
 	NumParticipants uint32   `protobuf:"varint,9,opt,name=num_participants,json=numParticipants,proto3" json:"num_participants,omitempty"`
 	ActiveRecording bool     `protobuf:"varint,10,opt,name=active_recording,json=activeRecording,proto3" json:"active_recording,omitempty"`
+	RoomType string `protobuf:"varint,11,opt,name=room_type,proto3" json:"room_type,omitempty"`
 }
 
 func (x *Room) Reset() {
