@@ -57,6 +57,8 @@ message CreateRoomRequest {
   string node_id = 4;
   // metadata of room
   string metadata = 5;
+  // type of room, (video, audio, ...)
+  string room_type = 6;
 }
 
 message ListRoomsRequest {

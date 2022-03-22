@@ -35,6 +35,8 @@ type CreateRoomRequest struct {
 	NodeId string `protobuf:"bytes,4,opt,name=node_id,json=nodeId,proto3" json:"node_id,omitempty"`
 	// metadata of room
 	Metadata string `protobuf:"bytes,5,opt,name=metadata,proto3" json:"metadata,omitempty"`
+	// type of room (video, audio, etc.)
+	RoomType string `protobuf:"bytes,6,opt,name=room_type,proto3" json:"room_type,omitempty"`
 }
 
 func (x *CreateRoomRequest) Reset() {
