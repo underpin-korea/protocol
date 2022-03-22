@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/livekit/protocol/auth"
+	"github.com/underpin-korea/protocol/auth"
 )
 
 // Receive reads and verifies incoming webhook is signed with key/secret pair

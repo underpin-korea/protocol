@@ -7,10 +7,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils"
+	"github.com/underpin-korea/protocol/auth"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
+	"github.com/underpin-korea/protocol/utils"
 )
 
 const (

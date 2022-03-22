@@ -4,7 +4,7 @@ package authfakes
 import (
 	"sync"
 
-	"github.com/livekit/protocol/auth"
+	"github.com/underpin-korea/protocol/auth"
 )
 
 type FakeKeyProvider struct {

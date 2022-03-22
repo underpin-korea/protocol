@@ -7,8 +7,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/utils"
 )
 
 const (
