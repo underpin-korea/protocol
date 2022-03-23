@@ -558,6 +558,13 @@ func (x *Room) GetActiveRecording() bool {
 	return false
 }
 
+func (x *Room) GetRoomType() string {
+	if x != nil {
+		return x.RoomType
+	}
+	return ""
+}
+
 type Codec struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache

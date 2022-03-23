@@ -106,6 +106,13 @@ func (x *CreateRoomRequest) GetMetadata() string {
 	return ""
 }
 
+func (x *CreateRoomRequest) GetRoomType() string {
+	if x != nil {
+		return x.RoomType
+	}
+	return ""
+}
+
 type ListRoomsRequest struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
